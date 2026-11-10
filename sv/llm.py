@@ -15,8 +15,9 @@ load_dotenv(ROOT / ".env")
 os.environ.pop("ANTHROPIC_BASE_URL", None)  # Claude Code sets a proxy; scripts use the API directly
 
 BUDGET_USD = float(os.environ.get("SV_BUDGET_USD", "200"))
-# USD per million tokens (input, output). Deliberately high so the cap errs safe.
-RATES = {"claude-opus-5-5": (15.0, 75.0), "claude-haiku-5-5": (1.0, 5.0), "claude-sonnet-5-5": (3.0, 15.0)}
+# USD per million tokens (input, output). Opus 5.5 is $4/$20 per secondary reports (Nov 2026);
+# ledger entries written before this change used $15/$75, so the ledger total overstates past spend.
+RATES = {"claude-opus-5-5": (4.0, 20.0), "claude-haiku-5-5": (1.0, 5.0), "claude-sonnet-5-5": (3.0, 15.0)}
 OPUS, HAIKU = "claude-opus-5-5", "claude-haiku-5-5"
 
 CACHE = ROOT / "runs" / "cache"; CACHE.mkdir(parents=True, exist_ok=True)
