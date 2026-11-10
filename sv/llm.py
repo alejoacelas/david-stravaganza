@@ -73,7 +73,10 @@ def parse_json(text: str):
                 return json.loads(p)
             except Exception:
                 pass
-    for open_, close in (("{", "}"), ("[", "]")):
+    pairs = [("{", "}"), ("[", "]")]
+    if -1 < s.find("[") < s.find("{") or s.find("{") == -1:
+        pairs.reverse()  # an array that starts before any object is the payload
+    for open_, close in pairs:
         i, j = s.find(open_), s.rfind(close)
         if i != -1 and j > i:
             try:

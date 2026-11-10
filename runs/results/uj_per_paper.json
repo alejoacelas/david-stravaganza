@@ -1,0 +1,1987 @@
+{
+ "Acemoglu_et_al._2024": {
+  "R0a": {
+   "n": 12,
+   "correct": 12,
+   "significant": 9,
+   "full": 5,
+   "full_ids": [
+    "R0a-1",
+    "R0a-3",
+    "R0a-4",
+    "R0a-5",
+    "R0a-10"
+   ],
+   "curated_n": 2,
+   "curated_hit": 2,
+   "human_n": 19,
+   "human_hit": 6,
+   "new_valid": 2,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-4",
+    "R0a-7",
+    "R0a-8",
+    "R0a-9",
+    "R0a-10",
+    "R0a-11",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 15,
+   "correct": 15,
+   "significant": 14,
+   "full": 14,
+   "full_ids": [
+    "R0b-15",
+    "R0b-9",
+    "R0b-3",
+    "R0b-5",
+    "R0b-6",
+    "R0b-8",
+    "R0b-2",
+    "R0b-12",
+    "R0b-1",
+    "R0b-14",
+    "R0b-11",
+    "R0b-13",
+    "R0b-7",
+    "R0b-10"
+   ],
+   "curated_n": 2,
+   "curated_hit": 1,
+   "human_n": 19,
+   "human_hit": 5,
+   "new_valid": 8,
+   "quotes_n": 15,
+   "quotes_found": 15,
+   "unmatched_ids": [
+    "R0b-3",
+    "R0b-5",
+    "R0b-6",
+    "R0b-7",
+    "R0b-12",
+    "R0b-13",
+    "R0b-14",
+    "R0b-15"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 9,
+   "full": 9,
+   "full_ids": [
+    "R1-4",
+    "R1-8",
+    "R1-2",
+    "R1-1",
+    "R1-6",
+    "R1-3",
+    "R1-7",
+    "R1-5",
+    "R1-9"
+   ],
+   "curated_n": 2,
+   "curated_hit": 2,
+   "human_n": 19,
+   "human_hit": 6,
+   "new_valid": 5,
+   "quotes_n": 23,
+   "quotes_found": 23,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-3",
+    "R1-4",
+    "R1-5",
+    "R1-9"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-7",
+    "R2-8",
+    "R2-3",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-9",
+    "R2-2",
+    "R2-1",
+    "R2-10"
+   ],
+   "curated_n": 2,
+   "curated_hit": 2,
+   "human_n": 19,
+   "human_hit": 6,
+   "new_valid": 5,
+   "quotes_n": 26,
+   "quotes_found": 26,
+   "unmatched_ids": [
+    "R2-2",
+    "R2-3",
+    "R2-4",
+    "R2-8",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 8,
+   "significant": 6,
+   "full": 3,
+   "full_ids": [
+    "E2-2",
+    "E2-9",
+    "E2-7"
+   ]
+  }
+ },
+ "Adena_and_Hager_2024": {
+  "R0a": {
+   "n": 12,
+   "correct": 12,
+   "significant": 5,
+   "full": 3,
+   "full_ids": [
+    "R0a-7",
+    "R0a-10",
+    "R0a-6"
+   ],
+   "curated_n": 1,
+   "curated_hit": 1,
+   "human_n": 34,
+   "human_hit": 13,
+   "new_valid": 0,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-2",
+    "R0a-5",
+    "R0a-8",
+    "R0a-9",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 13,
+   "correct": 13,
+   "significant": 11,
+   "full": 10,
+   "full_ids": [
+    "R0b-9",
+    "R0b-5",
+    "R0b-8",
+    "R0b-4",
+    "R0b-3",
+    "R0b-11",
+    "R0b-2",
+    "R0b-1",
+    "R0b-12",
+    "R0b-7"
+   ],
+   "curated_n": 1,
+   "curated_hit": 1,
+   "human_n": 34,
+   "human_hit": 20,
+   "new_valid": 3,
+   "quotes_n": 13,
+   "quotes_found": 13,
+   "unmatched_ids": [
+    "R0b-3",
+    "R0b-6",
+    "R0b-8",
+    "R0b-11",
+    "R0b-13"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 9,
+   "full": 9,
+   "full_ids": [
+    "R1-5",
+    "R1-7",
+    "R1-10",
+    "R1-8",
+    "R1-3",
+    "R1-1",
+    "R1-9",
+    "R1-6",
+    "R1-4"
+   ],
+   "curated_n": 1,
+   "curated_hit": 1,
+   "human_n": 34,
+   "human_hit": 14,
+   "new_valid": 2,
+   "quotes_n": 24,
+   "quotes_found": 24,
+   "unmatched_ids": [
+    "R1-5",
+    "R1-8"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-2",
+    "R2-1",
+    "R2-7",
+    "R2-9",
+    "R2-3",
+    "R2-5",
+    "R2-6",
+    "R2-4",
+    "R2-8",
+    "R2-10"
+   ],
+   "curated_n": 1,
+   "curated_hit": 1,
+   "human_n": 34,
+   "human_hit": 16,
+   "new_valid": 3,
+   "quotes_n": 29,
+   "quotes_found": 29,
+   "unmatched_ids": [
+    "R2-2",
+    "R2-7",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 10,
+   "significant": 7,
+   "full": 4,
+   "full_ids": [
+    "E1-3",
+    "E1-6",
+    "E2-24",
+    "E1-2"
+   ]
+  }
+ },
+ "Benabou_et_al._2023": {
+  "R0a": {
+   "n": 10,
+   "correct": 9,
+   "significant": 4,
+   "full": 2,
+   "full_ids": [
+    "R0a-2",
+    "R0a-1"
+   ],
+   "curated_n": 2,
+   "curated_hit": 0,
+   "human_n": 8,
+   "human_hit": 0,
+   "new_valid": 2,
+   "quotes_n": 10,
+   "quotes_found": 10,
+   "unmatched_ids": [
+    "R0a-1",
+    "R0a-2",
+    "R0a-3",
+    "R0a-4",
+    "R0a-5",
+    "R0a-6",
+    "R0a-7",
+    "R0a-8",
+    "R0a-9",
+    "R0a-10"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 14,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R0b-8",
+    "R0b-4",
+    "R0b-3",
+    "R0b-10",
+    "R0b-2",
+    "R0b-1",
+    "R0b-6",
+    "R0b-5",
+    "R0b-7",
+    "R0b-9"
+   ],
+   "curated_n": 2,
+   "curated_hit": 0,
+   "human_n": 8,
+   "human_hit": 0,
+   "new_valid": 10,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-1",
+    "R0b-2",
+    "R0b-3",
+    "R0b-4",
+    "R0b-5",
+    "R0b-6",
+    "R0b-7",
+    "R0b-8",
+    "R0b-9",
+    "R0b-10",
+    "R0b-11",
+    "R0b-12",
+    "R0b-13",
+    "R0b-14"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R1-3",
+    "R1-7",
+    "R1-9",
+    "R1-2",
+    "R1-6",
+    "R1-5",
+    "R1-4",
+    "R1-10",
+    "R1-1",
+    "R1-8"
+   ],
+   "curated_n": 2,
+   "curated_hit": 0,
+   "human_n": 8,
+   "human_hit": 0,
+   "new_valid": 10,
+   "quotes_n": 26,
+   "quotes_found": 26,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-2",
+    "R1-3",
+    "R1-4",
+    "R1-5",
+    "R1-6",
+    "R1-7",
+    "R1-8",
+    "R1-9",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-8",
+    "R2-1",
+    "R2-10",
+    "R2-9",
+    "R2-2",
+    "R2-4",
+    "R2-3",
+    "R2-5",
+    "R2-6",
+    "R2-7"
+   ],
+   "curated_n": 2,
+   "curated_hit": 0,
+   "human_n": 8,
+   "human_hit": 0,
+   "new_valid": 10,
+   "quotes_n": 28,
+   "quotes_found": 28,
+   "unmatched_ids": [
+    "R2-1",
+    "R2-2",
+    "R2-3",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 8,
+   "correct": 0,
+   "significant": 0,
+   "full": 0,
+   "full_ids": []
+  }
+ },
+ "Bilal_and_Kaenzig_2024": {
+  "R0a": {
+   "n": 11,
+   "correct": 10,
+   "significant": 6,
+   "full": 2,
+   "full_ids": [
+    "R0a-10",
+    "R0a-4"
+   ],
+   "curated_n": 3,
+   "curated_hit": 2,
+   "human_n": 21,
+   "human_hit": 9,
+   "new_valid": 1,
+   "quotes_n": 11,
+   "quotes_found": 11,
+   "unmatched_ids": [
+    "R0a-1",
+    "R0a-3",
+    "R0a-8",
+    "R0a-10",
+    "R0a-11"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 12,
+   "significant": 9,
+   "full": 8,
+   "full_ids": [
+    "R0b-4",
+    "R0b-5",
+    "R0b-10",
+    "R0b-1",
+    "R0b-2",
+    "R0b-9",
+    "R0b-11",
+    "R0b-7"
+   ],
+   "curated_n": 3,
+   "curated_hit": 2,
+   "human_n": 21,
+   "human_hit": 6,
+   "new_valid": 4,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-3",
+    "R0b-4",
+    "R0b-6",
+    "R0b-8",
+    "R0b-9",
+    "R0b-10",
+    "R0b-11",
+    "R0b-12",
+    "R0b-13",
+    "R0b-14"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 9,
+   "significant": 6,
+   "full": 6,
+   "full_ids": [
+    "R1-5",
+    "R1-2",
+    "R1-7",
+    "R1-3",
+    "R1-1",
+    "R1-6"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 21,
+   "human_hit": 5,
+   "new_valid": 4,
+   "quotes_n": 24,
+   "quotes_found": 24,
+   "unmatched_ids": [
+    "R1-2",
+    "R1-4",
+    "R1-5",
+    "R1-6",
+    "R1-7",
+    "R1-8",
+    "R1-9",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 8,
+   "significant": 5,
+   "full": 5,
+   "full_ids": [
+    "R2-5",
+    "R2-6",
+    "R2-1",
+    "R2-2",
+    "R2-3"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 21,
+   "human_hit": 6,
+   "new_valid": 3,
+   "quotes_n": 26,
+   "quotes_found": 26,
+   "unmatched_ids": [
+    "R2-2",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 10,
+   "significant": 5,
+   "full": 5,
+   "full_ids": [
+    "E2-11",
+    "E2-6",
+    "E2-16",
+    "E2-7",
+    "E2-12"
+   ]
+  }
+ },
+ "Blimpo_and_Castaneda-Dower_2025": {
+  "R0a": {
+   "n": 12,
+   "correct": 12,
+   "significant": 12,
+   "full": 10,
+   "full_ids": [
+    "R0a-1",
+    "R0a-5",
+    "R0a-3",
+    "R0a-11",
+    "R0a-10",
+    "R0a-4",
+    "R0a-9",
+    "R0a-12",
+    "R0a-7",
+    "R0a-6"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 25,
+   "human_hit": 5,
+   "new_valid": 7,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-4",
+    "R0a-6",
+    "R0a-7",
+    "R0a-9",
+    "R0a-10",
+    "R0a-11",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 13,
+   "correct": 12,
+   "significant": 12,
+   "full": 12,
+   "full_ids": [
+    "R0b-2",
+    "R0b-6",
+    "R0b-13",
+    "R0b-8",
+    "R0b-12",
+    "R0b-3",
+    "R0b-1",
+    "R0b-7",
+    "R0b-5",
+    "R0b-4",
+    "R0b-10",
+    "R0b-11"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 25,
+   "human_hit": 9,
+   "new_valid": 5,
+   "quotes_n": 13,
+   "quotes_found": 13,
+   "unmatched_ids": [
+    "R0b-4",
+    "R0b-5",
+    "R0b-7",
+    "R0b-9",
+    "R0b-11",
+    "R0b-12"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R1-4",
+    "R1-6",
+    "R1-1",
+    "R1-2",
+    "R1-3",
+    "R1-8",
+    "R1-9",
+    "R1-10",
+    "R1-5",
+    "R1-7"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 25,
+   "human_hit": 7,
+   "new_valid": 5,
+   "quotes_n": 19,
+   "quotes_found": 19,
+   "unmatched_ids": [
+    "R1-4",
+    "R1-5",
+    "R1-6",
+    "R1-8",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-2",
+    "R2-9",
+    "R2-3",
+    "R2-5",
+    "R2-6",
+    "R2-1",
+    "R2-8",
+    "R2-7",
+    "R2-10",
+    "R2-4"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 25,
+   "human_hit": 7,
+   "new_valid": 6,
+   "quotes_n": 29,
+   "quotes_found": 29,
+   "unmatched_ids": [
+    "R2-3",
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 8,
+   "significant": 5,
+   "full": 4,
+   "full_ids": [
+    "E1-10",
+    "E2-7",
+    "E1-2",
+    "E2-9"
+   ]
+  }
+ },
+ "Bruers_2021": {
+  "R0a": {
+   "n": 12,
+   "correct": 11,
+   "significant": 10,
+   "full": 9,
+   "full_ids": [
+    "R0a-3",
+    "R0a-7",
+    "R0a-1",
+    "R0a-10",
+    "R0a-4",
+    "R0a-6",
+    "R0a-11",
+    "R0a-9",
+    "R0a-12"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 25,
+   "human_hit": 14,
+   "new_valid": 1,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-1",
+    "R0a-2",
+    "R0a-5",
+    "R0a-8"
+   ]
+  },
+  "R0b": {
+   "n": 13,
+   "correct": 12,
+   "significant": 12,
+   "full": 11,
+   "full_ids": [
+    "R0b-2",
+    "R0b-10",
+    "R0b-4",
+    "R0b-9",
+    "R0b-11",
+    "R0b-8",
+    "R0b-1",
+    "R0b-7",
+    "R0b-6",
+    "R0b-5",
+    "R0b-3"
+   ],
+   "curated_n": 1,
+   "curated_hit": 1,
+   "human_n": 25,
+   "human_hit": 15,
+   "new_valid": 5,
+   "quotes_n": 13,
+   "quotes_found": 13,
+   "unmatched_ids": [
+    "R0b-4",
+    "R0b-6",
+    "R0b-8",
+    "R0b-9",
+    "R0b-10",
+    "R0b-13"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R1-7",
+    "R1-8",
+    "R1-9",
+    "R1-5",
+    "R1-4",
+    "R1-10",
+    "R1-1",
+    "R1-3",
+    "R1-2",
+    "R1-6"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 25,
+   "human_hit": 6,
+   "new_valid": 6,
+   "quotes_n": 26,
+   "quotes_found": 26,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-5",
+    "R1-6",
+    "R1-7",
+    "R1-8",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-10",
+    "R2-1",
+    "R2-5",
+    "R2-4",
+    "R2-9",
+    "R2-8",
+    "R2-2",
+    "R2-3",
+    "R2-7",
+    "R2-6"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 25,
+   "human_hit": 5,
+   "new_valid": 7,
+   "quotes_n": 29,
+   "quotes_found": 29,
+   "unmatched_ids": [
+    "R2-3",
+    "R2-5",
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 11,
+   "significant": 8,
+   "full": 4,
+   "full_ids": [
+    "E2-12",
+    "E2-5",
+    "E1-10",
+    "E1-6"
+   ]
+  }
+ },
+ "Clancy_2024": {
+  "R0a": {
+   "n": 12,
+   "correct": 11,
+   "significant": 9,
+   "full": 6,
+   "full_ids": [
+    "R0a-12",
+    "R0a-7",
+    "R0a-6",
+    "R0a-9",
+    "R0a-4",
+    "R0a-1"
+   ],
+   "curated_n": 3,
+   "curated_hit": 2,
+   "human_n": 30,
+   "human_hit": 5,
+   "new_valid": 6,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-1",
+    "R0a-3",
+    "R0a-4",
+    "R0a-6",
+    "R0a-7",
+    "R0a-8",
+    "R0a-9",
+    "R0a-10",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 13,
+   "significant": 13,
+   "full": 13,
+   "full_ids": [
+    "R0b-12",
+    "R0b-6",
+    "R0b-1",
+    "R0b-8",
+    "R0b-11",
+    "R0b-4",
+    "R0b-5",
+    "R0b-10",
+    "R0b-14",
+    "R0b-2",
+    "R0b-9",
+    "R0b-7",
+    "R0b-3"
+   ],
+   "curated_n": 3,
+   "curated_hit": 3,
+   "human_n": 30,
+   "human_hit": 18,
+   "new_valid": 8,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-1",
+    "R0b-5",
+    "R0b-6",
+    "R0b-8",
+    "R0b-9",
+    "R0b-10",
+    "R0b-12",
+    "R0b-13",
+    "R0b-14"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R1-4",
+    "R1-7",
+    "R1-9",
+    "R1-6",
+    "R1-1",
+    "R1-2",
+    "R1-3",
+    "R1-5"
+   ],
+   "curated_n": 3,
+   "curated_hit": 2,
+   "human_n": 30,
+   "human_hit": 4,
+   "new_valid": 6,
+   "quotes_n": 23,
+   "quotes_found": 23,
+   "unmatched_ids": [
+    "R1-2",
+    "R1-3",
+    "R1-4",
+    "R1-5",
+    "R1-6",
+    "R1-8",
+    "R1-9",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 9,
+   "correct": 9,
+   "significant": 9,
+   "full": 9,
+   "full_ids": [
+    "R2-3",
+    "R2-2",
+    "R2-1",
+    "R2-9",
+    "R2-5",
+    "R2-4",
+    "R2-8",
+    "R2-7",
+    "R2-6"
+   ],
+   "curated_n": 3,
+   "curated_hit": 1,
+   "human_n": 30,
+   "human_hit": 6,
+   "new_valid": 5,
+   "quotes_n": 24,
+   "quotes_found": 24,
+   "unmatched_ids": [
+    "R2-3",
+    "R2-5",
+    "R2-7",
+    "R2-8",
+    "R2-9"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 8,
+   "significant": 3,
+   "full": 2,
+   "full_ids": [
+    "E2-7",
+    "E2-8"
+   ]
+  }
+ },
+ "Dullaghan_and_Zhang_2022": {
+  "R0a": {
+   "n": 11,
+   "correct": 11,
+   "significant": 8,
+   "full": 7,
+   "full_ids": [
+    "R0a-7",
+    "R0a-3",
+    "R0a-5",
+    "R0a-1",
+    "R0a-6",
+    "R0a-4",
+    "R0a-2"
+   ],
+   "curated_n": 6,
+   "curated_hit": 2,
+   "human_n": 37,
+   "human_hit": 7,
+   "new_valid": 3,
+   "quotes_n": 11,
+   "quotes_found": 11,
+   "unmatched_ids": [
+    "R0a-3",
+    "R0a-6",
+    "R0a-7",
+    "R0a-9",
+    "R0a-10"
+   ]
+  },
+  "R0b": {
+   "n": 12,
+   "correct": 10,
+   "significant": 8,
+   "full": 7,
+   "full_ids": [
+    "R0b-1",
+    "R0b-6",
+    "R0b-7",
+    "R0b-2",
+    "R0b-5",
+    "R0b-10",
+    "R0b-4"
+   ],
+   "curated_n": 6,
+   "curated_hit": 3,
+   "human_n": 37,
+   "human_hit": 9,
+   "new_valid": 3,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0b-2",
+    "R0b-3",
+    "R0b-5",
+    "R0b-10",
+    "R0b-11",
+    "R0b-12"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R1-3",
+    "R1-1",
+    "R1-10",
+    "R1-2",
+    "R1-6",
+    "R1-4",
+    "R1-5",
+    "R1-7"
+   ],
+   "curated_n": 6,
+   "curated_hit": 3,
+   "human_n": 37,
+   "human_hit": 8,
+   "new_valid": 2,
+   "quotes_n": 23,
+   "quotes_found": 23,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-4",
+    "R1-8",
+    "R1-9"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R2-4",
+    "R2-6",
+    "R2-2",
+    "R2-8",
+    "R2-5",
+    "R2-1",
+    "R2-7",
+    "R2-3"
+   ],
+   "curated_n": 6,
+   "curated_hit": 4,
+   "human_n": 37,
+   "human_hit": 11,
+   "new_valid": 1,
+   "quotes_n": 25,
+   "quotes_found": 25,
+   "unmatched_ids": [
+    "R2-1",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 6,
+   "significant": 3,
+   "full": 1,
+   "full_ids": [
+    "E2-11"
+   ]
+  }
+ },
+ "Frech_et_al._2023": {
+  "R0a": {
+   "n": 12,
+   "correct": 11,
+   "significant": 11,
+   "full": 6,
+   "full_ids": [
+    "R0a-11",
+    "R0a-1",
+    "R0a-2",
+    "R0a-7",
+    "R0a-3",
+    "R0a-4"
+   ],
+   "curated_n": 2,
+   "curated_hit": 1,
+   "human_n": 25,
+   "human_hit": 4,
+   "new_valid": 4,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-1",
+    "R0a-3",
+    "R0a-4",
+    "R0a-5",
+    "R0a-6",
+    "R0a-7",
+    "R0a-9",
+    "R0a-10",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 14,
+   "significant": 14,
+   "full": 13,
+   "full_ids": [
+    "R0b-3",
+    "R0b-10",
+    "R0b-12",
+    "R0b-13",
+    "R0b-5",
+    "R0b-1",
+    "R0b-2",
+    "R0b-8",
+    "R0b-7",
+    "R0b-6",
+    "R0b-4",
+    "R0b-9",
+    "R0b-11"
+   ],
+   "curated_n": 2,
+   "curated_hit": 2,
+   "human_n": 25,
+   "human_hit": 13,
+   "new_valid": 7,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-4",
+    "R0b-6",
+    "R0b-7",
+    "R0b-8",
+    "R0b-9",
+    "R0b-10",
+    "R0b-13"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R1-8",
+    "R1-9",
+    "R1-4",
+    "R1-10",
+    "R1-7",
+    "R1-3",
+    "R1-1",
+    "R1-5",
+    "R1-6",
+    "R1-2"
+   ],
+   "curated_n": 2,
+   "curated_hit": 1,
+   "human_n": 25,
+   "human_hit": 6,
+   "new_valid": 6,
+   "quotes_n": 24,
+   "quotes_found": 23,
+   "unmatched_ids": [
+    "R1-2",
+    "R1-3",
+    "R1-5",
+    "R1-6",
+    "R1-7",
+    "R1-8"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-10",
+    "R2-8",
+    "R2-9",
+    "R2-5",
+    "R2-3",
+    "R2-6",
+    "R2-7",
+    "R2-1",
+    "R2-4",
+    "R2-2"
+   ],
+   "curated_n": 2,
+   "curated_hit": 1,
+   "human_n": 25,
+   "human_hit": 6,
+   "new_valid": 6,
+   "quotes_n": 27,
+   "quotes_found": 27,
+   "unmatched_ids": [
+    "R2-2",
+    "R2-3",
+    "R2-4",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 12,
+   "significant": 5,
+   "full": 2,
+   "full_ids": [
+    "E2-2",
+    "E2-9"
+   ]
+  }
+ },
+ "Green_et_al._2025": {
+  "R0a": {
+   "n": 12,
+   "correct": 12,
+   "significant": 8,
+   "full": 7,
+   "full_ids": [
+    "R0a-3",
+    "R0a-7",
+    "R0a-2",
+    "R0a-5",
+    "R0a-10",
+    "R0a-4",
+    "R0a-1"
+   ],
+   "curated_n": 2,
+   "curated_hit": 2,
+   "human_n": 38,
+   "human_hit": 10,
+   "new_valid": 3,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-3",
+    "R0a-5",
+    "R0a-6",
+    "R0a-8",
+    "R0a-9",
+    "R0a-10",
+    "R0a-11",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 14,
+   "significant": 14,
+   "full": 12,
+   "full_ids": [
+    "R0b-12",
+    "R0b-5",
+    "R0b-1",
+    "R0b-13",
+    "R0b-7",
+    "R0b-9",
+    "R0b-2",
+    "R0b-14",
+    "R0b-4",
+    "R0b-8",
+    "R0b-3",
+    "R0b-6"
+   ],
+   "curated_n": 2,
+   "curated_hit": 2,
+   "human_n": 38,
+   "human_hit": 12,
+   "new_valid": 8,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-2",
+    "R0b-4",
+    "R0b-5",
+    "R0b-6",
+    "R0b-7",
+    "R0b-8",
+    "R0b-9",
+    "R0b-11",
+    "R0b-12"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 9,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R1-2",
+    "R1-8",
+    "R1-9",
+    "R1-1",
+    "R1-4",
+    "R1-6",
+    "R1-5",
+    "R1-3"
+   ],
+   "curated_n": 2,
+   "curated_hit": 1,
+   "human_n": 38,
+   "human_hit": 4,
+   "new_valid": 7,
+   "quotes_n": 25,
+   "quotes_found": 25,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-2",
+    "R1-3",
+    "R1-4",
+    "R1-5",
+    "R1-7",
+    "R1-8",
+    "R1-9",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-4",
+    "R2-1",
+    "R2-2",
+    "R2-9",
+    "R2-3",
+    "R2-10",
+    "R2-7",
+    "R2-5",
+    "R2-6",
+    "R2-8"
+   ],
+   "curated_n": 2,
+   "curated_hit": 1,
+   "human_n": 38,
+   "human_hit": 4,
+   "new_valid": 9,
+   "quotes_n": 27,
+   "quotes_found": 27,
+   "unmatched_ids": [
+    "R2-1",
+    "R2-3",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 10,
+   "significant": 7,
+   "full": 4,
+   "full_ids": [
+    "E1-14",
+    "E1-17",
+    "E1-3",
+    "E1-9"
+   ]
+  }
+ },
+ "McGuire_et_al._2024": {
+  "R0a": {
+   "n": 12,
+   "correct": 12,
+   "significant": 12,
+   "full": 6,
+   "full_ids": [
+    "R0a-5",
+    "R0a-6",
+    "R0a-1",
+    "R0a-2",
+    "R0a-7",
+    "R0a-4"
+   ],
+   "curated_n": 4,
+   "curated_hit": 3,
+   "human_n": 57,
+   "human_hit": 11,
+   "new_valid": 3,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-2",
+    "R0a-4",
+    "R0a-6",
+    "R0a-8",
+    "R0a-10"
+   ]
+  },
+  "R0b": {
+   "n": 12,
+   "correct": 11,
+   "significant": 11,
+   "full": 11,
+   "full_ids": [
+    "R0b-3",
+    "R0b-6",
+    "R0b-11",
+    "R0b-7",
+    "R0b-2",
+    "R0b-12",
+    "R0b-10",
+    "R0b-8",
+    "R0b-1",
+    "R0b-4",
+    "R0b-5"
+   ],
+   "curated_n": 4,
+   "curated_hit": 4,
+   "human_n": 57,
+   "human_hit": 18,
+   "new_valid": 4,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0b-3",
+    "R0b-8",
+    "R0b-10",
+    "R0b-11"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 9,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R1-5",
+    "R1-8",
+    "R1-7",
+    "R1-1",
+    "R1-3",
+    "R1-10",
+    "R1-4",
+    "R1-6"
+   ],
+   "curated_n": 4,
+   "curated_hit": 0,
+   "human_n": 57,
+   "human_hit": 2,
+   "new_valid": 5,
+   "quotes_n": 26,
+   "quotes_found": 26,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-2",
+    "R1-4",
+    "R1-7",
+    "R1-8",
+    "R1-9",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-9",
+    "R2-10",
+    "R2-5",
+    "R2-1",
+    "R2-4",
+    "R2-3",
+    "R2-7",
+    "R2-8",
+    "R2-2",
+    "R2-6"
+   ],
+   "curated_n": 4,
+   "curated_hit": 2,
+   "human_n": 57,
+   "human_hit": 8,
+   "new_valid": 5,
+   "quotes_n": 30,
+   "quotes_found": 30,
+   "unmatched_ids": [
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R2-10"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 7,
+   "significant": 4,
+   "full": 1,
+   "full_ids": [
+    "E2-30"
+   ]
+  }
+ },
+ "Peterman_et_al._2025": {
+  "R0a": {
+   "n": 11,
+   "correct": 10,
+   "significant": 7,
+   "full": 4,
+   "full_ids": [
+    "R0a-2",
+    "R0a-1",
+    "R0a-7",
+    "R0a-8"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 39,
+   "human_hit": 12,
+   "new_valid": 2,
+   "quotes_n": 11,
+   "quotes_found": 11,
+   "unmatched_ids": [
+    "R0a-4",
+    "R0a-5",
+    "R0a-7",
+    "R0a-8",
+    "R0a-9",
+    "R0a-11"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 13,
+   "significant": 12,
+   "full": 10,
+   "full_ids": [
+    "R0b-13",
+    "R0b-6",
+    "R0b-4",
+    "R0b-2",
+    "R0b-8",
+    "R0b-1",
+    "R0b-5",
+    "R0b-3",
+    "R0b-10",
+    "R0b-7"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 39,
+   "human_hit": 14,
+   "new_valid": 5,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-2",
+    "R0b-3",
+    "R0b-4",
+    "R0b-8",
+    "R0b-9",
+    "R0b-11",
+    "R0b-13"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R1-2",
+    "R1-4",
+    "R1-7",
+    "R1-3",
+    "R1-8",
+    "R1-9",
+    "R1-6",
+    "R1-1"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 39,
+   "human_hit": 3,
+   "new_valid": 5,
+   "quotes_n": 20,
+   "quotes_found": 20,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-4",
+    "R1-5",
+    "R1-6",
+    "R1-7",
+    "R1-8",
+    "R1-10"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 9,
+   "full": 9,
+   "full_ids": [
+    "R2-9",
+    "R2-5",
+    "R2-3",
+    "R2-8",
+    "R2-2",
+    "R2-1",
+    "R2-4",
+    "R2-7",
+    "R2-6"
+   ],
+   "curated_n": 1,
+   "curated_hit": 0,
+   "human_n": 39,
+   "human_hit": 6,
+   "new_valid": 6,
+   "quotes_n": 22,
+   "quotes_found": 22,
+   "unmatched_ids": [
+    "R2-2",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-7",
+    "R2-8"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 8,
+   "significant": 3,
+   "full": 2,
+   "full_ids": [
+    "E1-8",
+    "E1-12"
+   ]
+  }
+ },
+ "Weaver_et_al._2025": {
+  "R0a": {
+   "n": 12,
+   "correct": 11,
+   "significant": 6,
+   "full": 4,
+   "full_ids": [
+    "R0a-6",
+    "R0a-4",
+    "R0a-12",
+    "R0a-2"
+   ],
+   "curated_n": 5,
+   "curated_hit": 2,
+   "human_n": 50,
+   "human_hit": 4,
+   "new_valid": 2,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-1",
+    "R0a-5",
+    "R0a-6",
+    "R0a-8",
+    "R0a-9",
+    "R0a-10",
+    "R0a-11",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 15,
+   "correct": 14,
+   "significant": 13,
+   "full": 13,
+   "full_ids": [
+    "R0b-3",
+    "R0b-8",
+    "R0b-10",
+    "R0b-12",
+    "R0b-2",
+    "R0b-5",
+    "R0b-4",
+    "R0b-7",
+    "R0b-1",
+    "R0b-11",
+    "R0b-15",
+    "R0b-13",
+    "R0b-6"
+   ],
+   "curated_n": 5,
+   "curated_hit": 2,
+   "human_n": 50,
+   "human_hit": 8,
+   "new_valid": 7,
+   "quotes_n": 15,
+   "quotes_found": 15,
+   "unmatched_ids": [
+    "R0b-2",
+    "R0b-3",
+    "R0b-6",
+    "R0b-7",
+    "R0b-8",
+    "R0b-10",
+    "R0b-12",
+    "R0b-14"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 9,
+   "significant": 8,
+   "full": 8,
+   "full_ids": [
+    "R1-5",
+    "R1-7",
+    "R1-3",
+    "R1-1",
+    "R1-6",
+    "R1-4",
+    "R1-8",
+    "R1-9"
+   ],
+   "curated_n": 5,
+   "curated_hit": 1,
+   "human_n": 50,
+   "human_hit": 3,
+   "new_valid": 7,
+   "quotes_n": 28,
+   "quotes_found": 28,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-3",
+    "R1-4",
+    "R1-5",
+    "R1-7",
+    "R1-8",
+    "R1-9"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-3",
+    "R2-9",
+    "R2-7",
+    "R2-5",
+    "R2-6",
+    "R2-8",
+    "R2-4",
+    "R2-1",
+    "R2-2",
+    "R2-10"
+   ],
+   "curated_n": 5,
+   "curated_hit": 1,
+   "human_n": 50,
+   "human_hit": 3,
+   "new_valid": 6,
+   "quotes_n": 28,
+   "quotes_found": 28,
+   "unmatched_ids": [
+    "R2-2",
+    "R2-3",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-9"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 11,
+   "significant": 2,
+   "full": 1,
+   "full_ids": [
+    "E1-6"
+   ]
+  }
+ },
+ "Williams_et_al._2024": {
+  "R0a": {
+   "n": 12,
+   "correct": 12,
+   "significant": 9,
+   "full": 8,
+   "full_ids": [
+    "R0a-2",
+    "R0a-3",
+    "R0a-1",
+    "R0a-5",
+    "R0a-12",
+    "R0a-10",
+    "R0a-4",
+    "R0a-6"
+   ],
+   "curated_n": 8,
+   "curated_hit": 3,
+   "human_n": 26,
+   "human_hit": 12,
+   "new_valid": 3,
+   "quotes_n": 12,
+   "quotes_found": 12,
+   "unmatched_ids": [
+    "R0a-4",
+    "R0a-7",
+    "R0a-10",
+    "R0a-12"
+   ]
+  },
+  "R0b": {
+   "n": 14,
+   "correct": 13,
+   "significant": 12,
+   "full": 10,
+   "full_ids": [
+    "R0b-3",
+    "R0b-10",
+    "R0b-6",
+    "R0b-2",
+    "R0b-14",
+    "R0b-8",
+    "R0b-4",
+    "R0b-9",
+    "R0b-1",
+    "R0b-5"
+   ],
+   "curated_n": 8,
+   "curated_hit": 3,
+   "human_n": 26,
+   "human_hit": 11,
+   "new_valid": 4,
+   "quotes_n": 14,
+   "quotes_found": 14,
+   "unmatched_ids": [
+    "R0b-2",
+    "R0b-7",
+    "R0b-8",
+    "R0b-9",
+    "R0b-11",
+    "R0b-12",
+    "R0b-13",
+    "R0b-14"
+   ]
+  },
+  "R1": {
+   "n": 10,
+   "correct": 10,
+   "significant": 9,
+   "full": 9,
+   "full_ids": [
+    "R1-4",
+    "R1-2",
+    "R1-3",
+    "R1-5",
+    "R1-6",
+    "R1-8",
+    "R1-1",
+    "R1-7",
+    "R1-10"
+   ],
+   "curated_n": 8,
+   "curated_hit": 2,
+   "human_n": 26,
+   "human_hit": 7,
+   "new_valid": 5,
+   "quotes_n": 23,
+   "quotes_found": 23,
+   "unmatched_ids": [
+    "R1-1",
+    "R1-2",
+    "R1-3",
+    "R1-7",
+    "R1-8",
+    "R1-9"
+   ]
+  },
+  "R2": {
+   "n": 10,
+   "correct": 10,
+   "significant": 10,
+   "full": 10,
+   "full_ids": [
+    "R2-8",
+    "R2-9",
+    "R2-3",
+    "R2-4",
+    "R2-5",
+    "R2-2",
+    "R2-6",
+    "R2-7",
+    "R2-1",
+    "R2-10"
+   ],
+   "curated_n": 8,
+   "curated_hit": 3,
+   "human_n": 26,
+   "human_hit": 6,
+   "new_valid": 6,
+   "quotes_n": 26,
+   "quotes_found": 26,
+   "unmatched_ids": [
+    "R2-1",
+    "R2-2",
+    "R2-3",
+    "R2-7",
+    "R2-8",
+    "R2-9"
+   ]
+  },
+  "HUMAN": {
+   "n": 12,
+   "correct": 9,
+   "significant": 7,
+   "full": 2,
+   "full_ids": [
+    "E2-9",
+    "E2-7"
+   ]
+  }
+ }
+}

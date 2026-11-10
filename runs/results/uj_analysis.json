@@ -1,0 +1,202 @@
+{
+ "recall_at_k": {
+  "R0a@5": {
+   "curated": [
+    0.419,
+    0.276,
+    0.606
+   ],
+   "human_items": [
+    0.143,
+    0.111,
+    0.181
+   ]
+  },
+  "R0a@10": {
+   "curated": [
+    0.512,
+    0.387,
+    0.667
+   ],
+   "human_items": [
+    0.217,
+    0.156,
+    0.282
+   ]
+  },
+  "R0a@all": {
+   "curated": [
+    0.535,
+    0.405,
+    0.702
+   ],
+   "human_items": [
+    0.258,
+    0.194,
+    0.336
+   ]
+  },
+  "R0b@5": {
+   "curated": [
+    0.442,
+    0.326,
+    0.571
+   ],
+   "human_items": [
+    0.189,
+    0.143,
+    0.249
+   ]
+  },
+  "R0b@10": {
+   "curated": [
+    0.488,
+    0.361,
+    0.629
+   ],
+   "human_items": [
+    0.27,
+    0.202,
+    0.351
+   ]
+  },
+  "R0b@all": {
+   "curated": [
+    0.628,
+    0.476,
+    0.821
+   ],
+   "human_items": [
+    0.364,
+    0.288,
+    0.45
+   ]
+  },
+  "R1@5": {
+   "curated": [
+    0.326,
+    0.2,
+    0.478
+   ],
+   "human_items": [
+    0.101,
+    0.058,
+    0.155
+   ]
+  },
+  "R1@10": {
+   "curated": [
+    0.442,
+    0.276,
+    0.636
+   ],
+   "human_items": [
+    0.173,
+    0.116,
+    0.244
+   ]
+  },
+  "R1@all": {
+   "curated": [
+    0.442,
+    0.276,
+    0.636
+   ],
+   "human_items": [
+    0.173,
+    0.116,
+    0.244
+   ]
+  },
+  "R2@5": {
+   "curated": [
+    0.419,
+    0.286,
+    0.588
+   ],
+   "human_items": [
+    0.152,
+    0.106,
+    0.205
+   ]
+  },
+  "R2@10": {
+   "curated": [
+    0.512,
+    0.364,
+    0.674
+   ],
+   "human_items": [
+    0.207,
+    0.151,
+    0.276
+   ]
+  },
+  "R2@all": {
+   "curated": [
+    0.512,
+    0.364,
+    0.674
+   ],
+   "human_items": [
+    0.207,
+    0.151,
+    0.276
+   ]
+  }
+ },
+ "quotes": {
+  "R0a": {
+   "items_with_quotes": 0,
+   "quotes": 0,
+   "found": 0
+  },
+  "R0b": {
+   "items_with_quotes": 0,
+   "quotes": 0,
+   "found": 0
+  },
+  "R1": {
+   "items_with_quotes": 140,
+   "quotes": 334,
+   "found": 333
+  },
+  "R2": {
+   "items_with_quotes": 139,
+   "quotes": 376,
+   "found": 376
+  }
+ },
+ "g3_on_curated_issues": {
+  "n": 43,
+  "correct": 36,
+  "significant": 30,
+  "full": 26,
+  "by_severity": {
+   "optional": {
+    "n": 26,
+    "significant": 18
+   },
+   "unsure": {
+    "n": 10,
+    "significant": 5
+   },
+   "necessary": {
+    "n": 7,
+    "significant": 7
+   }
+  }
+ },
+ "stability": {
+  "R1s1": {
+   "items": 140,
+   "matching_a_seed0_item": 114,
+   "share": 0.814
+  },
+  "R1s2": {
+   "items": 0,
+   "matching_a_seed0_item": 0,
+   "share": null
+  }
+ }
+}

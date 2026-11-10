@@ -1,0 +1,166 @@
+[
+ {
+  "reviewer": "R0a",
+  "items": 163,
+  "correct": {
+   "v": 0.957,
+   "lo": 0.933,
+   "hi": 0.981
+  },
+  "significant": {
+   "v": 0.712,
+   "lo": 0.613,
+   "hi": 0.81
+  },
+  "fully_positive": {
+   "v": 0.485,
+   "lo": 0.384,
+   "hi": 0.588
+  },
+  "fully_positive_per_paper": 5.64,
+  "curated_recall": {
+   "v": 0.535,
+   "lo": 0.405,
+   "hi": 0.702
+  },
+  "human_item_recall": {
+   "v": 0.258,
+   "lo": 0.194,
+   "hi": 0.336
+  },
+  "new_valid_per_paper": 2.79,
+  "quotes_found": {
+   "v": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  }
+ },
+ {
+  "reviewer": "R0b",
+  "items": 191,
+  "correct": {
+   "v": 0.942,
+   "lo": 0.915,
+   "hi": 0.968
+  },
+  "significant": {
+   "v": 0.864,
+   "lo": 0.803,
+   "hi": 0.917
+  },
+  "fully_positive": {
+   "v": 0.806,
+   "lo": 0.741,
+   "hi": 0.866
+  },
+  "fully_positive_per_paper": 11.0,
+  "curated_recall": {
+   "v": 0.628,
+   "lo": 0.476,
+   "hi": 0.821
+  },
+  "human_item_recall": {
+   "v": 0.364,
+   "lo": 0.288,
+   "hi": 0.45
+  },
+  "new_valid_per_paper": 5.79,
+  "quotes_found": {
+   "v": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  }
+ },
+ {
+  "reviewer": "R1",
+  "items": 140,
+  "correct": {
+   "v": 0.971,
+   "lo": 0.95,
+   "hi": 0.993
+  },
+  "significant": {
+   "v": 0.864,
+   "lo": 0.807,
+   "hi": 0.921
+  },
+  "fully_positive": {
+   "v": 0.864,
+   "lo": 0.807,
+   "hi": 0.921
+  },
+  "fully_positive_per_paper": 8.64,
+  "curated_recall": {
+   "v": 0.442,
+   "lo": 0.276,
+   "hi": 0.636
+  },
+  "human_item_recall": {
+   "v": 0.173,
+   "lo": 0.116,
+   "hi": 0.244
+  },
+  "new_valid_per_paper": 5.36,
+  "quotes_found": {
+   "v": 0.997,
+   "lo": 0.991,
+   "hi": 1.0
+  }
+ },
+ {
+  "reviewer": "R2",
+  "items": 139,
+  "correct": {
+   "v": 0.986,
+   "lo": 0.957,
+   "hi": 1.0
+  },
+  "significant": {
+   "v": 0.942,
+   "lo": 0.863,
+   "hi": 1.0
+  },
+  "fully_positive": {
+   "v": 0.942,
+   "lo": 0.863,
+   "hi": 1.0
+  },
+  "fully_positive_per_paper": 9.36,
+  "curated_recall": {
+   "v": 0.512,
+   "lo": 0.364,
+   "hi": 0.674
+  },
+  "human_item_recall": {
+   "v": 0.207,
+   "lo": 0.151,
+   "hi": 0.276
+  },
+  "new_valid_per_paper": 5.57,
+  "quotes_found": {
+   "v": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  }
+ },
+ {
+  "reviewer": "HUMAN",
+  "items": 164,
+  "correct": {
+   "v": 0.72,
+   "lo": 0.612,
+   "hi": 0.81
+  },
+  "significant": {
+   "v": 0.396,
+   "lo": 0.306,
+   "hi": 0.482
+  },
+  "fully_positive": {
+   "v": 0.213,
+   "lo": 0.156,
+   "hi": 0.274
+  },
+  "fully_positive_per_paper": 2.5
+ }
+]
