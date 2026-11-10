@@ -27,18 +27,9 @@ def load_set(name: str) -> dict[str, str]:
         man = ROOT / "data/planted/manifest.json"
         if not man.exists():
             sys.exit("data/planted/manifest.json not found")
-        m = json.load(open(man))
-        entries = m.get("variants", m) if isinstance(m, dict) else m
-        if isinstance(entries, dict):
-            entries = [{"id": k, **(v if isinstance(v, dict) else {"text": v})} for k, v in entries.items()]
-        out = {}
-        for e in entries:
-            vid = e.get("id") or e.get("variant_id")
-            path = e.get("text") or e.get("text_path") or e.get("path")
-            p = Path(path)
-            p = p if p.is_absolute() else (ROOT / p if (ROOT / p).exists() else ROOT / "data/planted" / p)
-            out[vid] = p.read_text()
-        return out
+        # Planted variants and clean twins, texts at data/planted/variants/<variant_id>.txt
+        return {e["variant_id"]: (ROOT / "data/planted/variants" / f"{e['variant_id']}.txt").read_text()
+                for e in json.load(open(man))}
     sys.exit(f"unknown set {name}")
 
 
