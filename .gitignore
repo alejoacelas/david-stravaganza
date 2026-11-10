@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 runs/cache/
 data/derived/
+runs/reviews/
+runs/grades/
+data/planted/
