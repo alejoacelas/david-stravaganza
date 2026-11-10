@@ -1,0 +1,336 @@
+{
+ "summary": {
+  "n_cases": 24,
+  "detection_acc": "19/19",
+  "location_acc": "19/19",
+  "false_alarm_acc": "5/5",
+  "overall_verdict_acc": "24/24"
+ },
+ "cases": [
+  {
+   "case": "angrist-hit-quote",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Flags text 0.372 SD versus Table 1 0.327 SD and quotes the planted sentence."
+  },
+  {
+   "case": "angrist-hit-noquote",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    false
+   ],
+   "want": [
+    true,
+    false
+   ],
+   "reason": "Flags the 0.372 SD in the text as inconsistent with the 0.327 SD in Table 1, matching the planted error."
+  },
+  {
+   "case": "angrist-rightplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    true
+   ],
+   "want": [
+    false,
+    true
+   ],
+   "reason": "Quotes the 0.372 sentence but raises attrition bias, not the mismatch with Table 1's 0.327."
+  },
+  {
+   "case": "angrist-wrongplace",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    false
+   ],
+   "want": [
+    false,
+    false
+   ],
+   "reason": "Item targets the SMS-only 0.083 SD effect, not the combined phone+SMS 0.372 vs 0.327 discrepancy."
+  },
+  {
+   "case": "abbink-hit",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Points out that the Round 1 estimate of 40.33 (SE 31.44) has no stars, yet the text claims significance. Quotes the planted sentence."
+  },
+  {
+   "case": "abbink-rightplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    true
+   ],
+   "want": [
+    false,
+    true
+   ],
+   "reason": "Quotes the planted sentence but argues low power and round 3 nulls, not that round 1 is insignificant."
+  },
+  {
+   "case": "banerjee-hit",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Quotes the inserted sentence and flags over-generalization from two Kenyan counties to national UBI in any country."
+  },
+  {
+   "case": "banerjee-rightplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    true
+   ],
+   "want": [
+    false,
+    true
+   ],
+   "reason": "Raises self-report bias, not overgeneralization to national permanent UBI; quotes original sentence, not inserted claim."
+  },
+  {
+   "case": "banerjee-wrongplace-generic",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    false
+   ],
+   "want": [
+    false,
+    false
+   ],
+   "reason": "Generic external-validity caveat citing the p.9 setting; does not flag the inserted claim about national permanent UBI in any low-income country."
+  },
+  {
+   "case": "haushofer-hit",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Quotes the planted sentence and notes Table 1's positive 0.25 coefficient indicates increased violence, not improvement."
+  },
+  {
+   "case": "haushofer-rightplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    true
+   ],
+   "want": [
+    false,
+    true
+   ],
+   "reason": "Quotes the planted sentence but criticizes FDR significance, not the sign contradiction with Table 1's positive coefficient."
+  },
+  {
+   "case": "walker-hit",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Computes 305/2156.5 \u2248 14% rather than 19% and quotes the planted sentence on p.14."
+  },
+  {
+   "case": "walker-wrongplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    false
+   ],
+   "want": [
+    false,
+    false
+   ],
+   "reason": "Quotes the planted sentence but critiques its p-value significance, not the miscomputed 19% (should be ~14%)."
+  },
+  {
+   "case": "buntaine-hit",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Quotes the 26,420 statement on p.17 and flags the contradiction with the 24,620 reported in Table 1 and Section III."
+  },
+  {
+   "case": "buntaine-rightplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    true
+   ],
+   "want": [
+    false,
+    true
+   ],
+   "reason": "Quotes the planted sentence, but raises external validity rather than the 26,420 vs 24,620 inconsistency."
+  },
+  {
+   "case": "carson-hit-partialquote",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "States that 18 points on a 33% baseline is about 55%, not 75%, and quotes the planted p.14 sentence."
+  },
+  {
+   "case": "carson-wrongplace",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    false
+   ],
+   "want": [
+    false,
+    false
+   ],
+   "reason": "Targets the 1.8pp/5.4% variance effect, not the 18pp/75% versus 55% claim."
+  },
+  {
+   "case": "jack-hit",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    true,
+    true
+   ],
+   "want": [
+    true,
+    true
+   ],
+   "reason": "Quotes the planted significance claim and notes Table 6 shows 0.020 (SE 0.030) with no stars; matches the detection criterion."
+  },
+  {
+   "case": "jack-rightplace-wrongnature",
+   "kind": "planted",
+   "det_ok": true,
+   "loc_ok": true,
+   "got": [
+    false,
+    true
+   ],
+   "want": [
+    false,
+    true
+   ],
+   "reason": "Quotes the planted sentence but accepts the significance claim; never notes that 0.020 (SE 0.030) is insignificant."
+  },
+  {
+   "case": "clean-angrist-hallucinated",
+   "kind": "clean",
+   "fa_ok": true,
+   "got": 1,
+   "want": 1,
+   "reason": "Claims the text reports 0.372 SD where Table 1 shows 0.327, which is exactly the planted error."
+  },
+  {
+   "case": "clean-angrist-other",
+   "kind": "clean",
+   "fa_ok": true,
+   "got": 0,
+   "want": 0,
+   "reason": "Raises an attrition bias concern about subsampling; it does not mention 0.372 or 18,936."
+  },
+  {
+   "case": "clean-banerjee-hallucinated",
+   "kind": "clean",
+   "fa_ok": true,
+   "got": 1,
+   "want": 1,
+   "reason": "Asserts the paper makes the planted over-generalized claim about national UBI in any low-income country."
+  },
+  {
+   "case": "clean-abbink-correct-reading",
+   "kind": "clean",
+   "fa_ok": true,
+   "got": 0,
+   "want": 0,
+   "reason": "Quotes the correct text and accepts round 1 is insignificant; doesn't claim the paper asserts round-1 significance."
+  },
+  {
+   "case": "clean-walker-hallucinated",
+   "kind": "clean",
+   "fa_ok": true,
+   "got": 1,
+   "want": 1,
+   "reason": "Claims the text states a 19% increase, which is the planted error absent from this correct copy."
+  }
+ ]
+}
