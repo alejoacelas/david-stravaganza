@@ -84,7 +84,7 @@ def score_uj(revs):
             m_cur = g2_match.match_lists(pid, items, curated, tag=f"score:g2cur:{r}:{pid}") if items else {}
             m_all = g2_match.match_lists(pid, items, hitems, tag=f"score:g2all:{r}:{pid}") if items else {}
             matched_ai = {m["ai_id"] for ms in m_all.values() for m in ms}
-            quotes = [q for it in items for q in g1_evidence.check(paper, it)]
+            quotes = [q for it in items if it.get("evidence") for q in g1_evidence.check(paper, it)]
             res[r].update({
                 "curated_n": len(curated), "curated_hit": sum(bool(m_cur.get(c["id"])) for c in curated),
                 "human_n": len(hitems), "human_hit": sum(bool(m_all.get(h["id"])) for h in hitems),

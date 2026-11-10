@@ -21,12 +21,17 @@ from sv.score import load_reviews, human_items, boot_ci
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "runs/results"
 REVS = ["R0a", "R0b", "R1", "R2"]
+# Gold-data errors found in the audit (both inherited from the source study's files):
+# the Benabou text is a different paper ("Ends versus Means") from the one evaluated, and
+# Peterman's only curated issue describes the Weaver paper.
+EXCLUDE_PAPERS = {"Benabou_et_al._2023"}
+EXCLUDE_CURATED = {("Peterman_et_al._2025", "H1")}
 
 
 def main():
     gold = json.load(open(ROOT / "data/derived/uj_gold_issues.json"))
     hum = json.load(open(ROOT / "data/derived/uj_human_items.json"))
-    pids = sorted(gold)
+    pids = sorted(p for p in gold if p not in EXCLUDE_PAPERS)
     reviews = {r: load_reviews(r) for r in REVS + ["R1s1", "R1s2"]}
     out = {}
 
@@ -38,9 +43,9 @@ def main():
             for pid in pids:
                 items = reviews[r].get(pid, [])
                 keep = {it["id"] for it in (items[:k] if k else items)}
-                curated = [{"id": h["id"], "text": h["text"]} for h in gold[pid]["human_issues"]]
+                curated = [{"id": h["id"], "text": h["text"]} for h in gold[pid]["human_issues"] if (pid, h["id"]) not in EXCLUDE_CURATED]
                 hitems = human_items(pid, hum)
-                mc = g2_match.match_lists(pid, items, curated, tag=f"score:g2cur:{r}:{pid}") if items else {}
+                mc = g2_match.match_lists(pid, items, curated, tag=f"score:g2cur:{r}:{pid}") if items and curated else {}
                 mh = g2_match.match_lists(pid, items, hitems, tag=f"score:g2all:{r}:{pid}") if items else {}
                 hits_c.append(sum(any(m["ai_id"] in keep for m in mc.get(c["id"], [])) for c in curated)); n_c.append(len(curated))
                 hits_h.append(sum(any(m["ai_id"] in keep for m in mh.get(h["id"], [])) for h in hitems)); n_h.append(len(hitems))
@@ -92,6 +97,14 @@ def main():
             num += sum(bool(m.get(it["id"])) for it in other); den += len(other)
         st[s] = {"items": den, "matching_a_seed0_item": num, "share": round(num / den, 3) if den else None}
     out["stability"] = st
+
+    # 5. G3 quality per reviewer on the included papers, from the stored per-paper counts
+    per = json.load(open(OUT / "uj_per_paper.json"))
+    out["g3_quality_included_papers"] = {
+        r: {k: [round(x, 3) for x in boot_ci([per[p][r][num] for p in pids], [per[p][r]["n"] for p in pids])]
+            for k, num in (("correct", "correct"), ("significant", "significant"), ("fully_positive", "full"))}
+        for r in REVS + ["HUMAN"]}
+    out["included_papers"] = pids
 
     (OUT / "uj_analysis.json").write_text(json.dumps(out, indent=1))
     print(json.dumps(out, indent=1))

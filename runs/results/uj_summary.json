@@ -29,11 +29,7 @@
    "hi": 0.336
   },
   "new_valid_per_paper": 2.79,
-  "quotes_found": {
-   "v": 1.0,
-   "lo": 1.0,
-   "hi": 1.0
-  }
+  "quotes_found": null
  },
  {
   "reviewer": "R0b",
@@ -65,11 +61,7 @@
    "hi": 0.45
   },
   "new_valid_per_paper": 5.79,
-  "quotes_found": {
-   "v": 1.0,
-   "lo": 1.0,
-   "hi": 1.0
-  }
+  "quotes_found": null
  },
  {
   "reviewer": "R1",
