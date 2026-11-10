@@ -128,6 +128,7 @@ def main():
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--only", nargs="*", help="paper ids to run (default all)")
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--stop-at", type=float, default=190.0, help="skip papers once the ledger reaches this USD")
     a = ap.parse_args()
     if a.reviewer == "R0a" and a.set != "uj":
         sys.exit("R0a exists only for set uj")
@@ -138,6 +139,8 @@ def main():
     kw = {} if a.reviewer == "R0a" else {"seed": a.seed}
 
     def one(pid):
+        if llm.spent() >= a.stop_at:
+            return pid, None, f"Skipped: ledger at ${llm.spent():.2f} >= --stop-at ${a.stop_at}"
         try:
             return pid, fn(a.set, pid, papers[pid], **kw), None
         except Exception as e:
