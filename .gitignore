@@ -1,0 +1,7 @@
+.env
+.venv/
+data/raw/
+data/papers/
+__pycache__/
+*.pyc
+runs/cache/

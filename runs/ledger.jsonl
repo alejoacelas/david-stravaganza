@@ -1,0 +1,2 @@
+{"tag": "smoke", "model": "claude-haiku-5-5", "usd": 0.0, "in": 17, "out": 4, "secs": 0.7}
+{"tag": "smoke", "model": "claude-opus-5-5", "usd": 0.0006, "in": 17, "out": 4, "secs": 0.9}
